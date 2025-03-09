@@ -1,0 +1,13 @@
+server:
+  port: ${PORT}
+
+spring:
+  application:
+    name: github-integration app for cactro test
+
+github:
+  username: ${GITHUB_USERNAME}
+  api:
+    base-url: ${GITHUB_BASE_URL}
+    token: ${GITHUB_TOKEN}
+
